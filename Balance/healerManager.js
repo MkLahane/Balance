@@ -14,8 +14,8 @@ class HealerManager {
             particle.show();
         }
     }
-    update(blockManager) {
-        if (frameCount % (this.spawnRate * 60) == 0) {
+    update(blockManager, game) {
+        if (frameCount % (this.spawnRate * 60) == 0 && game.startSpawning) {
             this.spawnHealer(blockManager);
         }
         for (let i = this.healers.length - 1; i >= 0; i--) {
