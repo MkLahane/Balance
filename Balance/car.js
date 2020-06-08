@@ -32,7 +32,7 @@ class Car {
         }
         //health bar 
         let healthBarLowerY = map(this.health, 0, 100, 0, height * 0.3);
-        let healthBarX = (this.carSide == "left") ? width * 0.01 : width * 0.96;
+        let healthBarX = (this.carSide == "left") ? width * 0.02 : width * 0.94;
         let healthBarUpperY = 0;
         let healthBarHeight = healthBarLowerY - healthBarUpperY;
         let healthBarC = (this.carSide == "left") ? 0 : 255;
