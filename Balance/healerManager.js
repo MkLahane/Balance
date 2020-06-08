@@ -1,6 +1,6 @@
 class HealerManager {
     constructor() {
-        this.spawnRate = 10;
+        this.spawnRate = 15;
         this.spacing = (width / 4);
         this.healers = [];
         this.destructionParticles = [];
