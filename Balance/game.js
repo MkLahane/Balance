@@ -106,7 +106,7 @@ class Game {
                     this.backgroundAlpha = 200;
                     this.reappearText();
                 }
-                this.healerManager.update(this.blockManager);
+                this.healerManager.update(this.blockManager, this);
                 this.healerManager.checkCollisions(this.player);
             }
             if (!this.gameIsOver && this.startSpawning && frameCount % 240 == 0) {
