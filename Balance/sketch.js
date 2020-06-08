@@ -126,8 +126,8 @@ function draw() {
         fill(255);
         noStroke();
         textSize(20);
-        text(poseLabelLeft, width * 0.1, height * 0.9);
-        text(poseLabelRight, width * 0.8, height * 0.9);
+        //text(poseLabelLeft, width * 0.1, height * 0.9);
+        //text(poseLabelRight, width * 0.8, height * 0.9);
     } else {
         fill(255);
         textFont(gameFont);
